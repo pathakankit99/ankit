@@ -1,0 +1,17 @@
+.hero{
+    width: 500px;
+    height: 500px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+.Typewriter{
+    color: rgb(186, 131, 236);
+    display: inline;
+}
+
+@media screen and (max-width: 530px){
+    .hero{
+        width: 300px;
+        height: 300px;
+    }
+}
