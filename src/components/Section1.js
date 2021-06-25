@@ -1,5 +1,4 @@
 import React from 'react'
-import hero from '../pic.jpg';
 import '../styles/Section1.css'
 import Typewriter from 'typewriter-effect';
 function Section1() {
@@ -21,7 +20,7 @@ function Section1() {
                 </div>
             </div>
             <div className="w-full pt-6 lg:w-6/12 flex justify-center">
-                <img className="hero" src={hero} alt="Ankit Pathak"/>
+                <img className="hero" src="https://res.cloudinary.com/ak99/image/upload/v1624606712/VID_1875_ktxire.jpg" alt="Ankit Pathak"/>
             </div>      
         </section>
     )
